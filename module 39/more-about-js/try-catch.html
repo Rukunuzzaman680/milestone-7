@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Try Catch</title>
+  <style>
+    #container {
+      margin: 50px auto;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 40px;
+      font-weight: 900;
+      font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+      color: rgb(89, 169, 171);
+    }
+
+    input[type=text] {
+      padding: 12px 20px;
+      margin: 8px 10px;
+      border: 3px solid lightseagreen;
+      border-radius: 15px;
+      outline: none;
+    }
+
+    input[type=text]:focus {
+      border: 3px solid rgb(225, 133, 41);
+    }
+
+
+    button[type="submit"] {
+      padding: 15px;
+      border: 2px solid lightseagreen;
+      border-radius: 15px;
+      background-color: lightsalmon;
+    }
+  </style>
+</head>
+
+<body>
+  <section id="container">
+    <h1>Create custom error using Try and Catch</h1>
+    <div>
+      <input id="age" type="text" placeholder="Enter age between 18-30">
+      <button onclick="checkAge ()" type="submit">Submit</button>
+      <p id="error"></p>
+    </div>
+  </section>
+
+  <script src="try-catch.js"></script>
+</body>
+
+</html>

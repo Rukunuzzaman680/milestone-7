@@ -1,0 +1,33 @@
+localStorage.setItem("myCat", "Tom");
+
+const cat = localStorage.getItem("myCat");
+
+localStorage.removeItem("myCat");
+
+localStorage.clear();
+   
+localStorage.length();
+
+
+
+--------- JSON.stringify -------
+
+const obj = {name: "John", age: 30, city: "New York"};
+
+const myJSON = JSON.stringify(obj);
+
+
+
+------------- JSON.parse ------------
+
+'{"name":"John", "age":30, "city":"New York"}'
+
+const obj = JSON.parse('{"name":"John", "age":30, "city":"New York"}');
+
+const text = '["Ford", "BMW", "Audi", "Fiat"]';
+const myArr = JSON.parse(text);
+
+
+
+
+
